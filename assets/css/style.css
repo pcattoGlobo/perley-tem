@@ -476,9 +476,6 @@ nav.navbar.bootsnav .navbar-toggle i {
     padding: 0 2px;
 }
 
-.single-horizontal-timeline .experience-time h3 {
-/*     text-transform: capitalize; */
-}
 
 .single-horizontal-timeline .experience-time h3 span {
     text-transform: lowercase;
@@ -524,7 +521,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {
 /*-------------------------------------
         6.  Skills
 --------------------------------------*/
-.skills {}
+
 
 .skill-content {
     padding: 50px 0 80px;
@@ -1066,7 +1063,6 @@ span.single-timeline-horizontal.spacial-horizontal-line {
 /*.contact-add-info */
 
 /*hm-foot-icon*/
-.hm-foot-icon {}
 
 .hm-foot-icon ul li {
     float: left;

@@ -16,19 +16,13 @@ $email = $_POST["email"];
 $subject = $_POST["subject"];
 $mensaje = $_POST["comments"];
 
-// Datos de la cuenta de correo utilizada para enviar vía SMTP
-//$smtpHost = "usuario.ferozo.com";  // Dominio alternativo brindado en el email de alta 
-//$smtpUsuario = "miCuenta@miDominio.com";  // Mi cuenta de correo
-//$smtpClave = "miClave";  // Mi contraseña
 
-//no-reply@tuusuario.ferozo.com
-
-$smtpHost = "c2610749.ferozo.com";  // Dominio alternativo brindado en el email de alta 
-$smtpUsuario = "contact@perley-tem.com";  // Mi cuenta de correo
-$smtpClave = "cDBhA@d8bZ";  // Mi contraseña
+$smtpHost = "keep";  // Dominio alternativo brindado en el email de alta 
+$smtpUsuario = "keep";  // Mi cuenta de correo
+$smtpClave = "keep";  // Mi contraseña
 
 // Email donde se enviaran los datos cargados en el formulario de contacto
-$emailDestino = "contact@perley-tem.com";
+$emailDestino = "keep";
 
 $mail = new PHPMailer();
 $mail->IsSMTP();
